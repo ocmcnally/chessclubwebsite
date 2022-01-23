@@ -3,18 +3,18 @@
   padding: 0;
   border: 0;
   font-family: 'Jost';
+  /* color: #54c971; */
+}
+
+p {
+  font-size: 24px;
 }
 
 .title {
   padding-left: 20px;
-  font-size: 50px;
+  font-size: 30px;
   /* font-weight: 400px; */
   color: #000;
-}
-
-.pagename {
-  padding-left: 50px;
-  font-size: 30px;
 }
 
 .container {
@@ -24,44 +24,56 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover; */
-  background-color: #5f9ea0;
+  /* background-color: #5f9ea0; */
   padding-left: 1%;
   padding-right: 1%;
   box-sizing: border-box;
 }
 
 .navbar {
-  padding-top: 2%;
+  background-color: #c70000;
+  background-size: auto;
   width: 100%;
   height: 15vh;
   margin: auto;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
-nav{
+.navbar:before {
+  content:"";
+  background-color:#c70000;
+  position: absolute;
+  height: 100%;
+  width: 4000px;
+  left: -2000px;
+  z-index: -1;
+}
+
+nav {
   flex: 1;
-  padding-left: 500px;
+  padding-left: 600px;
   position: fixed;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   list-style: none;
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   background-color: #ccc;
   border: 2px;
   border-style: solid;
   border-color: #000;
   color: #000;
-  padding: 10px 15px;
-  border-radius: 10px;
+  padding: 10px 20px;
+  /* border-radius: 10px; */
   font-size: x-large;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .joinbutton {
@@ -72,4 +84,31 @@ nav ul li a{
   background-color: #7fff00;
   padding: 20px 30px;
   border-radius: 10px;
+  border: 2px;
+  border-style: solid;
+  border-color: #408000;
+}
+
+.joinbutton:hover {
+  color: #fff;
+  background-color: #408000;
+}
+
+.selectedpage {
+  color: #fff;
+  background-color: #000;
+}
+
+.unselectedpage {
+  color: #000;
+  background-color: #fff;
+}
+
+.unselectedpage:hover {
+  color: #fff;
+  background-color: #808080;
+}
+
+.person {
+  display: inline-block;
 }
