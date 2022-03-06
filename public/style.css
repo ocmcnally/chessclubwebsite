@@ -3,7 +3,7 @@
   padding: 0;
   border: 0;
   font-family: 'Jost';
-  transition: all 0.2s ease 0s;
+  transition: all 0.5s ease 0s;
   /* color: #54c971; */
 }
 
@@ -27,7 +27,7 @@ p {
 
 .title {
   padding-left: 1%;
-  font-size: 200%;
+  font-size: 5vh;
   font-weight: 400px;
   color: #000;
 }
@@ -38,6 +38,7 @@ p {
   vertical-align: middle;
   padding-left: 0%;
   padding-right: 0%;
+  padding-top: 16vh;
 }
 
 .container {
@@ -47,7 +48,7 @@ p {
   background-position: center;
   background-attachment: fixed;
   background-size: cover; */
-  /* background-color: #5f9ea0; */
+  /* background-color: #808080; */
   padding-left: 1%;
   padding-right: 1%;
 }
