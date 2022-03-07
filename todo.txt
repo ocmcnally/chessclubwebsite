@@ -1,0 +1,5 @@
+Style:
+    - Design CSS for Phone
+    - Get Rid of Blocks of Text
+    - Center Nav Buttons
+    - Fix Scrolling on Phone
