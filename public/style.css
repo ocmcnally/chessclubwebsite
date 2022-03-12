@@ -48,7 +48,6 @@ p {
   background-position: center;
   background-attachment: fixed;
   background-size: cover; */
-  /* background-color: #808080; */
   padding-left: 1%;
   padding-right: 1%;
 }
@@ -99,7 +98,6 @@ nav ul li a {
   border-color: #000;
   color: #000;
   padding: 1.5vh 2vh;
-  /* border-radius: 10px; */
   font-size: x-large;
   font-weight: 500;
 }
