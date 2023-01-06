@@ -1,0 +1,132 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: #ceedc7;
+  background-image: url("images/background.png");
+  text-align: center;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 4rem;
+  font-weight: 900;
+  font-style: italic;
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 50px;
+}
+
+h3 {
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 20px;
+}
+
+p {
+  font-weight: 400;
+}
+
+img {
+  user-select: none;
+  pointer-events: none;
+}
+
+.chess-piece {
+  width: 40rem;
+  height: auto;
+}
+
+.chess-board {
+  width: 45rem;
+  height: auto;
+}
+
+.about-us-background {
+  background-color: #def5e5;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.about-us-box {
+  background-color: #f1f7b5;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10%;
+}
+
+.about-us-box:hover {
+  background-color: lightgreen;
+  transform: scale(1.05);
+}
+
+.about-us-icon {
+  width: 15rem;
+  height: 15rem;
+}
+
+.portrait {
+  width: 19rem;
+  height: 22.5rem;
+  border-radius: 10%;
+}
+
+.photo {
+  width: 70%;
+}
+
+.contact-us-icon:hover {
+  transform: scale(1.2);
+}
+
+.knight {
+  width: 15rem;
+  height: auto;
+  display: -webkit-box;
+  margin-left: -7.5%;
+  padding: 20px;
+}
+
+.h1-clicked {
+  color: white;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  h1 {
+    font-size: 12vw;
+  }
+  h2 {
+    font-size: 8vw;
+  }
+  h3 {
+    font-size: 5vw;
+  }
+  h4 {
+    font-size: 3vw;
+  }
+  p {
+    font-size: 3vw;
+  }
+  .chess-piece {
+    max-width: 20rem;
+    height: auto;
+    padding: 20px;
+  }
+  .chess-board {
+    max-width: 20rem;
+    height: auto;
+  }
+}
