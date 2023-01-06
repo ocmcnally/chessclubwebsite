@@ -25,6 +25,7 @@ h2 {
 }
 
 h3 {
+  font-size: 2rem;
   font-weight: 600;
   padding: 10px 0;
 }
@@ -36,6 +37,7 @@ h4 {
 }
 
 p {
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
@@ -55,23 +57,23 @@ img {
 }
 
 .about-us-background {
-  background-color: #def5e5;
+  /* background-color: #def5e5; */
   border-left: 1px solid #000;
   border-right: 1px solid #000;
 }
 
 .about-us-box {
   background-color: #f1f7b5;
-  width: 70%;
+  width: 80%;
   margin: 20px auto;
   padding: 20px;
   border-radius: 10%;
 }
 
-.about-us-box:hover {
+/* .about-us-box:hover {
   background-color: lightgreen;
   transform: scale(1.05);
-}
+} */
 
 .about-us-icon {
   width: 15rem;

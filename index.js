@@ -1,5 +1,5 @@
 var i = 0;
-var txt = "Chess@Brown";
+var txt = "The Brown Chess Club";
 var speed = 100;
 
 function typeWriter() {
