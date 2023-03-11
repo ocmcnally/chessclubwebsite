@@ -1,54 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brown Chess Club</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <title>Brown Chess Club</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Merriweather font -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet"> -->
+    <!-- fontawesome icon -->
+    <script src="https://kit.fontawesome.com/43124feaf5.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/board.png">
+    <link rel="icon" href="images/icons/chesscompawn.png" type="image/gif" sizes="16x16">
 </head>
 
 <body>
-  <div class="container">
-    <div class="navbar">
-      <img src="images/logo.svg" alt="Logo" width="80" height="80">
-      <h1 class="title">The <span style="color: #fff;">Brown <br> Chess</span> Club</h1>
-      <nav>
-        <ul>
-          <li><a class="selectedpage">Home</a></li>
-          <li><a href="join.html" class="unselectedpage">Join</a></li>
-          <li><a href="leaders.html" class="unselectedpage">Leaders</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="half">
-      <img src="images/background.jpg" alt="Chess" width="100%">
-    </div>
-    <div class="half">
-      <center>
-        <h1>Who We Are</h1>
-        <p>The Brown Chess Club is a club for any and every Brunonian interested in chess. We play chess, analyze games,
-          compete in tournaments, and do all kinds of other fun stuff! Whether you're a complete novice or a seasoned
-          pro,
-          we'd love to help you on your journey to chess mastery. To get involved, you can use the button below or
-          simply
-          stop by one of our meetings!</p>
-        <br>
-        <br>
-        <a class="joinbutton" href="https://forms.gle/5gB6TUwG2XaVr2iC7" target="_blank">Get in the Loop</a>
-      </center>
-    </div>
-    <br>
-    <br>
-    <center>
-      <h1>Meeting Information</h1>
-      <p style="padding-right: 2%;">We currently meet weekly on Tuesdays from 8 PM to 10 PM. The location can vary from
-        week to week, so either ask a member the day of the meeting or join our mailing list (using the button above) to
-        know where the meeting is being held every time.</p>
-    </center>
-  </div>
+    <section id="home">
+        <div class="container-fluid" style="padding: 0 3%">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#home">
+                    <img src="images/logo.svg" style="width:6rem; height:6rem" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapse">
+                    <ul class="navbar-nav ms-auto" style="font-size:1.25rem">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#leadership-team">Leadership</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#photo-gallery">Photos</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div>
+            <h1>The Brown Chess Club</h1>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmulObI8xLkq52Ndys6ISKn0x18zK18hTgC0aAeR5ijvuzUA/viewform"
+                target="_blank">
+                <button type="button" class="btn btn-outline-dark btn-lg">
+                    <h3>Join Us <i class="fa-solid fa-user-plus"></i></h3>
+                </button>
+            </a>
+            <br><br>
+            <div class="row">
+                <center>
+                    <div class="col-lg-4">
+                        <!-- <a
+                            href="https://www.chess.com/register?returnUrl=https://www.chess.com/club/brown-university-chess-club/join">
+                            <i class="fa-solid fa-chess-pawn fa-5x contact-us-icon"></i>
+                        </a> -->
+                        <a href="https://www.chess.com/club/brown-university-chess-club/join" target="_blank">
+                            <button type="button" class="btn btn-outline-dark btn-lg">
+                                <h3><img src="images/icons/chesscompawn.png" alt="Chess.com Pawn" width="20%"> Join our
+                                    club on Chess.com!</h3>
+                            </button>
+                        </a>
+                        <!-- <h3>Join our club on Chess.com!</h3> -->
+                    </div>
+                </center>
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-lg-6">
+                <div>
+                    <img src="images/piece.png" class="chess-piece" alt="chess-piece">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div>
+                    <img src="images/board.png" class="chess-board" alt="chess-board">
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <section id="about-us">
+        <h2>About Us</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about-us-box">
+                    <img src="images/info.png" class="about-us-icon" alt="info">
+                    <h3>Who We Are</h3>
+                    <p>We are a club for Brunonians interested in chess. We play chess, analyze games, compete in
+                        tournaments, and other fun stuff! Whether you're a novice or a seasoned pro, we'd love to help
+                        you on your journey to chess mastery.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-us-box">
+                    <img src="images/time.png" class="about-us-icon" alt="time-icon">
+                    <h3>Meeting Information</h3>
+                    <p>We currently meet weekly on Tuesdays from 8 PM to 10 PM. The location can vary from week to week,
+                        so either ask a member the day of the meeting or join our mailing list to know where the meeting
+                        is being held every time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="leadership-team">
+        <h2>Leadership</h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <img src="images/alex.png" class="portrait img-fluid" alt="alex">
+                <h4>Alex Duchnowski - President</h4>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="images/jack.png" class="portrait img-fluid" alt="jack">
+                <h4>Jack Cheng - President</h4>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="images/nuj.png" class="portrait img-fluid" alt="nuj">
+                <h4>Nuj Naguleswaran - President</h4>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="images/jorge.png" class="portrait img-fluid" alt="jorge">
+                <h4>Jorge Sammour - Coach</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="photo-gallery">
+        <h2>Photos</h2>
+        <div id="photo_carousel" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <img src="images/magnus.png" class="photo" alt="magnus">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="images/gold-board.png" class="photo" alt="gold_board">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="images/game-6.png" class="photo" alt="game_6">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#photo_carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#photo_carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section> -->
+
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <center>
+                    <div class="col-lg-4">
+                        <a href="mailto: brownchessclub@brown.edu" style="color:red" target="_blank">
+                            <i class="fa-solid fa-envelope fa-5x contact-us-icon"></i></a>
+                        <h3>Email</h3>
+                        <p>Send us an email at brownchessclub@brown.edu!</p>
+                    </div>
+                </center>
+                <!-- <div class="col-lg-4">
+                    <a href="https://discord.gg/a493hPNs" style="color:#7289d9" target="_blank">
+                        <i class="fa-brands fa-discord fa-5x contact-us-icon"></i></a>
+                    <h3>Discord</h3>
+                    <p>Join our Discord server!</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p style="text-align:right; padding:10px">Coded by Frank Chiu @ Brown University</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- <script src="index.js" charset="utf-8"></script> -->
 </body>
 
 </html>
