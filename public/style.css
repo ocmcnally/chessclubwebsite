@@ -51,6 +51,16 @@ img {
   pointer-events: none;
 }
 
+.icon {
+  background-image: url("./images/icons/chesscompawn.png");
+  background-size: 100%;
+  /* background-position: 50%; */
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  /* Other styles here */
+}
+
 .chess-piece {
   width: 40rem;
   height: auto;
@@ -68,16 +78,12 @@ img {
 }
 
 .about-us-box {
-  background-color: #f1f7b5;
+  color: white;
+  background-color: #4E3629;
   width: 80%;
   margin: 20px auto;
   padding: 20px;
-  border-radius: 10%;
-}
-
-.about-us-box:hover {
-  background-color: lightgreen;
-  transform: scale(1.05);
+  /* border-radius: 10%; */
 }
 
 .about-us-icon {
