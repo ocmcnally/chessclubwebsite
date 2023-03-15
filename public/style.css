@@ -51,6 +51,10 @@ img {
   pointer-events: none;
 }
 
+/* button {
+  ;
+} */
+
 .icon {
   background-image: url("./images/icons/chesscompawn.png");
   background-size: 100%;
@@ -83,7 +87,7 @@ img {
   width: 80%;
   margin: 20px auto;
   padding: 20px;
-  /* border-radius: 10%; */
+  border-radius: 5%;
 }
 
 .about-us-icon {
