@@ -1,3 +1,14 @@
+:root {
+  --red: #ED1C24;
+  --brown: #4E3629;
+  --gold: #FFC72C;
+  --gray: #98A4AE;
+  --skyblue: #59CBE8;
+  --emerald:  #00B398;
+  --navy:  #003C71;
+  --taupe: #B7B09C;
+}
+
 * {
   font-family: 'Helvetica';
 }
@@ -9,8 +20,8 @@ html {
 
 body {
   scroll-behavior: smooth;
-  background-color: #ceedc7;
-  background-image: url("images/background.png");
+  background-color: var(--gray);
+  /* background-image: url("images/background.png"); */
   text-align: center;
 }
 
@@ -26,6 +37,7 @@ h1 {
   font-weight: 900;
   font-style: italic;
   padding: 20px 0;
+  color: var(--brown);
 }
 
 h2 {
@@ -54,6 +66,13 @@ p {
 img {
   user-select: none;
   pointer-events: none;
+}
+
+footer {
+  color: var(--gold);
+  background-color: var(--brown);
+  border: solid;
+  border-color: var(--brown);
 }
 
 /* button {
@@ -88,7 +107,7 @@ img {
 
 .about-us-box {
   color: white;
-  background-color: #4E3629;
+  background-color: var(--emerald);
   width: 80%;
   margin: 20px auto;
   padding: 20px;
@@ -124,6 +143,24 @@ img {
 
 .h1-clicked {
   color: white;
+}
+
+.btn {
+  color: var(--navy);
+  border-color: var(--navy);
+  border-width: 0.2rem;
+}
+
+.btn:hover {
+  color: white;
+  border-color: var(--navy);
+  border-width: 0.2rem;
+  background-color: var(--navy);
+}
+
+.img-thumbnail {
+  background-color: var(--red);
+  border-color: var(--red);
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
