@@ -25,11 +25,6 @@ body {
   text-align: center;
 }
 
-/* h1,
-h2 {
-  color: #ED1C24;
-} */
-
 h1 {
   font-family: 'Helvetica';
   /* font-family: "Merriweather", serif; */
@@ -43,7 +38,7 @@ h1 {
 h2 {
   font-size: 3rem;
   font-weight: 900;
-  padding: 50px;
+  padding: 30px;
 }
 
 h3 {
@@ -61,6 +56,11 @@ h4 {
 p {
   font-size: 1.25rem;
   font-weight: 400;
+}
+
+li {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 img {
@@ -156,11 +156,6 @@ footer {
   border-color: var(--navy);
   border-width: 0.2rem;
   background-color: var(--navy);
-}
-
-.img-thumbnail {
-  background-color: var(--red);
-  border-color: var(--red);
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
