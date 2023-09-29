@@ -1,16 +1,16 @@
 :root {
-  --red: #ED1C24;
-  --brown: #4E3629;
-  --gold: #FFC72C;
-  --gray: #98A4AE;
-  --skyblue: #59CBE8;
-  --emerald:  #00B398;
-  --navy:  #003C71;
-  --taupe: #B7B09C;
+  --red: #ed1c24;
+  --brown: #4e3629;
+  --gold: #ffc72c;
+  --gray: #98a4ae;
+  --skyblue: #59cbe8;
+  --emerald: #00b398;
+  --navy: #003c71;
+  --taupe: #b7b09c;
 }
 
 * {
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
 }
 
 body,
@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
   /* font-family: "Merriweather", serif; */
   font-size: 4rem;
   font-weight: 900;
@@ -73,6 +73,14 @@ footer {
   background-color: var(--brown);
   border: solid;
   border-color: var(--brown);
+}
+
+.lg-view {
+  display: inline-block;
+}
+
+.sm-view {
+  display: none;
 }
 
 .icon {
@@ -145,7 +153,6 @@ footer {
   color: var(--navy);
   border-color: var(--navy);
   border-width: 0.2rem;
-  width: 20%;
 }
 
 .btn:hover {
@@ -176,6 +183,14 @@ footer {
     font-size: 3vw;
   }
 
+  .lg-view {
+    display: none;
+  }
+
+  .sm-view {
+    display: inline-block;
+  }
+
   .chess-piece {
     max-width: 20rem;
     height: auto;
@@ -187,7 +202,8 @@ footer {
     height: auto;
   }
 
-  .btn {
-    width: 40%
+  .icon {
+    width: 20px;
+    height: 20px;
   }
 }
