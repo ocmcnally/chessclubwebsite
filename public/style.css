@@ -145,6 +145,7 @@ footer {
   color: var(--navy);
   border-color: var(--navy);
   border-width: 0.2rem;
+  width: 20%;
 }
 
 .btn:hover {
@@ -184,5 +185,9 @@ footer {
   .chess-board {
     max-width: 20rem;
     height: auto;
+  }
+
+  .btn {
+    width: 40%
   }
 }
