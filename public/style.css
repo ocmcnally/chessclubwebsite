@@ -76,11 +76,11 @@ footer {
 }
 
 .lg-view {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .sm-view {
-  display: none;
+  display: none !important;
 }
 
 .icon {
@@ -184,11 +184,11 @@ footer {
   }
 
   .lg-view {
-    display: none;
+    display: none !important;
   }
 
   .sm-view {
-    display: inline-block;
+    display: inline-block !important;
   }
 
   .chess-piece {
