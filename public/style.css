@@ -162,7 +162,7 @@ footer {
   background-color: var(--navy);
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 1024px) {
   h1 {
     font-size: 12vw;
   }
@@ -203,7 +203,7 @@ footer {
   }
 
   .icon {
-    width: 20px;
-    height: 20px;
+    width: 0.9em;
+    height: 0.9em;
   }
 }
